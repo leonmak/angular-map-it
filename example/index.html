@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="css/angular-map-it.css"/>
+  </head>
+
+  <body>
+
+    <div ng-app="myApp" ng-controller="Ctrl">
+
+      <!-- example directive for world map with touch, zoom -->
+      <world-map world-data="worldData" value-range="valueRange" color-range="colorRange" dimension="dimension"
+      map-width="mapWidth" descriptive-text="descriptiveText" country-fill-color="countryFillColor"
+      country-border-color="countryBorderColor"></world-map>
+
+      <!-- example directive for globe with rotate and zoom -->
+      <!--<globe world-data="worldData" value-range="valueRange" color-range="colorRange" dimension="dimension"
+      country-fill-color="countryFillColor" country-border-color="countryBorderColor"></globe>-->
+
+      <!-- example directive for globe with rotate, zoom, touch enabled -->
+      <!--<globe-touch world-data="worldData" value-range="valueRange" color-range="colorRange" dimension="dimension"
+      country-fill-color="countryFillColor" country-border-color="countryBorderColor"></globe-touch>-->
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/d3/index.js"></script>
+
+    <script type="text/javascript" src="js/angular-map-it.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+    <!--<script type="text/javascript" src="js/d3.geo.js"></script>
+    <script type="text/javascript" src="js/world-map.js"></script>
+    <script type="text/javascript" src="js/globe.js"></script>
+    <script type="text/javascript" src="js/globe-touch.js"></script>-->
+
+  </body>
+</html>
