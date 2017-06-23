@@ -1,6 +1,6 @@
 {
   "name": "angular-map-it",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "dependencies": {
     "d3": "~3.5.17"
   },
